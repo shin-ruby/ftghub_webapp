@@ -1,0 +1,34 @@
+<div class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm">
+  <a class="navmenu-brand visible-md visible-lg" href="#">Project name</a>
+  <%= image_tag("ftglogo", width: '98', class: "ftglogo" ) %>
+  <hr>
+  <ul class="nav navmenu-nav">
+    <li><a href="./">推荐</a></li>
+    <li><a href="../navmenu-push/">发现</a></li>
+    <li><a href="../navmenu-reveal/">发布</a></li>
+    <li><a href="../navbar-offcanvas/">消息</a></li>
+  </ul>
+  <ul class="nav navmenu-nav">
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">个人信息 <b class="caret"></b></a>
+      <ul class="dropdown-menu navmenu-nav">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li class="divider"></li>
+        <li class="dropdown-header">Nav header</li>
+        <li><a href="#">Separated link</a></li>
+        <li><a href="#">One more separated link</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+  <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand" href="#">Project name</a>
+</div>
