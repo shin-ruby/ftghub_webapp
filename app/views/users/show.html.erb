@@ -1,0 +1,54 @@
+<% provide(:title, 'user') %>
+<div class="user-show">
+	<div class="row user-show-head">
+	  <div class="col-xs-4 left">
+	  	<p><i class="fa fa-user-plus"></i></p>
+	  </div>
+	  <div class="col-xs-4 center">
+	  	<h5 class="text-center">Shin</h5>
+	  </div>
+	  <div class="col-xs-4 right">
+	  	<p class="text-right"><i class="fa fa-cog"></i></p>
+	  </div>
+	</div>
+	<div class="row user-show-avatar">
+	  <div class="col-md-12 text-center">
+	  	<%= image_tag("shin-avatar", size: "80", class: "img-circle avatar") %>
+	  	<p><small>@shinplus</small></p>
+	  	<p><small>合气道三段</small></p>
+	  </div>
+	</div>
+	<div class="row user-show-content">
+	  <div class="col-md-12 text-center">
+	  	<ul class="list-inline">
+			  <li><small>following</small></li>
+			  <li><small>fans</small></li>
+			  <li><small>likes</small></li>
+			</ul>
+			<%= button 'edit profile', size: :extra %>
+	  </div>
+	</div>
+	<div class="row user-show-video">
+	  <div class="col-xs-4">
+	  	<%= image_tag("index2-1") %>
+	  </div>
+	  <div class="col-xs-4">
+	  	<%= image_tag("index2-1") %>
+	  </div>
+	  <div class="col-xs-4">
+	  	<%= image_tag("index2-1") %>
+	  </div>
+	  <div class="col-xs-4">
+	  	<%= image_tag("index2-1") %>
+	  </div>
+	  <div class="col-xs-4">
+	  	<%= image_tag("index2-1") %>
+	  </div>
+	  <div class="col-xs-4">
+	  	<%= image_tag("index2-1") %>
+	  </div>
+	</div>
+
+	<%= @user.email %>
+	
+</div>

@@ -3,6 +3,23 @@
 @import "jasny-bootstrap.min";
 @import "font-awesome";
 
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+
+/* miscellaneous */
+
+.debug_dump {
+  margin-left: 20px;
+  clear: both;
+  float: left;
+  width: 280px;
+  margin-top: 45px;
+  @include box_sizing;
+}
+
 html, body {
   height: 100%;
 }
@@ -66,3 +83,47 @@ body {
 .home {
 	margin-top: 15px;
 }
+
+/* User Show */
+
+.user-show {
+  background-color: #FF0033;
+  color: #FFFFFF;
+}
+
+.user-show-head {
+  .left i {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .center h5 {
+    margin-top: 15px;
+  }
+  .right i {
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+}
+
+.avatar {
+  margin-top: 10px;
+  border-style: solid; border-width: 2px; border-color: #FFFFFF;
+}
+
+.user-show-content {
+  margin-bottom: 20px;
+}
+
+.user-show-video {
+  background-color: #000000;
+  max-width: 100%;
+  margin-left: 0px;
+  .col-xs-4{
+      padding: 1px;
+      max-width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+    
