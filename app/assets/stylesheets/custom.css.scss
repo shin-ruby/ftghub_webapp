@@ -9,6 +9,8 @@
   box-sizing:         border-box;
 }
 
+$white: #FFFFFF;
+
 /* miscellaneous */
 
 .debug_dump {
@@ -124,6 +126,34 @@ body {
     img {
       width: 100%;
     }
+  }
+}
+
+.list-inline>li {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+  a {
+    float: left;
+    padding: 0 10px;
+    border-left: 1px solid $gray-lighter;
+    color: $white;
+    &:first-child {
+      padding-left: 0;
+      border: 0;
+    }
+    &:hover {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+  strong {
+    display: block;
   }
 }
     

@@ -20,10 +20,31 @@
 	</div>
 	<div class="row user-show-content">
 	  <div class="col-md-12 text-center">
-	  	<ul class="list-inline">
-			  <li><small>following</small></li>
-			  <li><small>fans</small></li>
-			  <li><small>likes</small></li>
+	  	<ul class="list-inline stats">
+	  		<li>
+	  			<a href="#">
+				    <strong id="following" class="stat">
+				      32
+				    </strong>
+				    <small>following</small>
+				  </a>
+	  		</li>
+			  <li>
+			  	<a href="#">
+				    <strong id="fans" class="stat">
+				      12
+				    </strong>
+				    <small>fans</small>
+				  </a>
+			  </li>
+			  <li>
+			  	<a href="#">
+				    <strong id="likes" class="stat">
+				      53
+				    </strong>
+				    <small>likes</small>
+				  </a>
+			  </li>
 			</ul>
 			<%= button 'edit profile', size: :extra %>
 	  </div>
@@ -48,7 +69,4 @@
 	  	<%= image_tag("index2-1") %>
 	  </div>
 	</div>
-
-	<%= @user.email %>
-	
 </div>
