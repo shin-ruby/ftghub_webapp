@@ -1,0 +1,37 @@
+<% provide(:title, 'edit profile') %>
+<div class="row common-header">
+  <div class="col-md-12">
+  	<a href="#">
+  		<i class="fa fa-angle-left fa-2x"></i>
+  	</a>
+  	<p class="text-center">edit profile</p>
+  </div>
+</div>
+
+<div class="row profile-avatar">
+  <div class="col-md-12 text-center">
+  	<div class="fileinput fileinput-new" data-provides="fileinput">
+		  <div class="fileinput-new thumbnail" style="width: 100px; height: 100px;">
+		    <%= image_tag("shin-avatar", size: "100") %>
+		  </div>
+		  <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 100px; max-height: 100px;"></div>
+		  <div>
+		    <span class="btn btn-default btn-sm btn-file"><span class="fileinput-new">update</span><span class="fileinput-exists">change</span><input type="file" name="..."></span>
+		    <a href="#" class="btn btn-default btn-sm fileinput-exists" data-dismiss="fileinput">remove</a>
+		  </div>
+		</div>
+  </div>
+</div>
+
+<div class="row profile-form">
+  <div class="col-md-12">
+  	<%= form_for User.new, layout: :basic do |f| %>
+		  <%= f.text_field :email, label: 'username', placeholder: '' %>
+		  <%= f.text_field :email, label: 'your name', placeholder: '' %>
+		  <%= f.text_field :email, label: 'wei chat ID', placeholder: '' %>
+		  <%= f.text_field :email, label: '格斗术', placeholder: '太极拳，形意拳' %>
+		  <%= f.text_area :email, label: 'short bio', rows: 4, placeholder: '' %>
+		  <%= f.submit '完成' %>
+		<% end %>
+  </div>
+</div>

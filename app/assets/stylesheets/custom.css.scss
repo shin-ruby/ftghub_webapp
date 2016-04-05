@@ -11,6 +11,7 @@
 
 $white: #FFFFFF;
 $ftg-red: #FF0033;
+$glay: #888888;
 
 /* miscellaneous */
 
@@ -85,6 +86,22 @@ body {
 
 .ftglogo {
 	margin-left: 15px;
+}
+
+.common-header {
+  height: 40px;
+  background-color: $ftg-red;
+  width: 100%;
+  .col-md-12 {
+    i {
+      margin-top: 6px;
+      color: $white;
+    }
+    p {
+      margin-top: -24px;
+      color: $white;
+    }
+  }
 }
 
 
@@ -165,22 +182,6 @@ body {
 
 /* following */
 
-.shwo-follow-head {
-  height: 40px;
-  background-color: $ftg-red;
-  width: 100%;
-  .col-md-12 {
-    i {
-      margin-top: 6px;
-      color: $white;
-    }
-    p {
-      margin-top: -24px;
-      color: $white;
-    }
-  }
-}
-
 .following {
   .avatar {
     margin-top: 0px;
@@ -199,6 +200,19 @@ body {
   }
   small {
     color: #888888;
+  }
+}
+
+/* profile */
+
+.profile-avatar {
+  margin-top: 15px;
+}
+
+.profile-form {
+  label {
+    font-size: 10px;
+    color: $glay;
   }
 }
     
