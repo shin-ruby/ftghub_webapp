@@ -10,6 +10,7 @@
 }
 
 $white: #FFFFFF;
+$ftg-red: #FF0033;
 
 /* miscellaneous */
 
@@ -27,6 +28,11 @@ html, body {
 }
 body {
   padding: 50px 0 0 0;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .navmenu {
@@ -80,6 +86,7 @@ body {
 .ftglogo {
 	margin-left: 15px;
 }
+
 
 /* Home Page */
 .home {
@@ -141,7 +148,6 @@ body {
   a {
     float: left;
     padding: 0 10px;
-    border-left: 1px solid $gray-lighter;
     color: $white;
     &:first-child {
       padding-left: 0;
@@ -154,6 +160,45 @@ body {
   }
   strong {
     display: block;
+  }
+}
+
+/* following */
+
+.shwo-follow-head {
+  height: 40px;
+  background-color: $ftg-red;
+  width: 100%;
+  .col-md-12 {
+    i {
+      margin-top: 6px;
+      color: $white;
+    }
+    p {
+      margin-top: -24px;
+      color: $white;
+    }
+  }
+}
+
+.following {
+  .avatar {
+    margin-top: 0px;
+    margin-left: 8px;
+    border-style: none;
+    border-width: 0px;
+  }
+  .username {
+    min-width: 180px;
+  }
+  .btn {
+    margin-top: 4px;
+  }
+  p {
+    margin: 0 0 0px;
+  }
+  small {
+    color: #888888;
   }
 }
     
