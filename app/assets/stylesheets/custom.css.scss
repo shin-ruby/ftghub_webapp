@@ -183,7 +183,7 @@ body {
 
 /* following */
 
-.following {
+.common-list {
   .avatar {
     margin-top: 0px;
     margin-left: 8px;
@@ -262,3 +262,29 @@ body {
 .tag-3 { background-color: #FF3300; }
 .tag-4 { background-color: #FF6600; }
 .tag-5 { background-color: #FF9900; }
+
+/* notification */
+
+.common-list {
+  .notify {
+    margin-top: 12px;
+  }
+}
+
+.sort {
+  text-align: center;
+  .active {
+    background-color: #FF6666;
+    color: $white;
+  }
+}
+
+.sort-box {
+  background-color: $white;
+  width: 100px;
+  height: 26px;
+  margin-left: 30px;
+  margin-top: 8px;
+  padding-top: 2px;
+  color: #CC6666;
+}
