@@ -12,6 +12,7 @@
 $white: #FFFFFF;
 $ftg-red: #FF0033;
 $glay: #888888;
+$gray-lighter: #eee;
 
 /* miscellaneous */
 
@@ -215,4 +216,49 @@ body {
     color: $glay;
   }
 }
-    
+
+/* discover */
+
+.search {
+  margin-top: 6px;
+}
+
+.topic {
+  background-color: $gray-lighter;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  .trending-tags {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 2px;
+  }
+}
+
+.topic-box {
+  height: 80px;
+  background-color: $white;
+  border: 1px solid $gray-lighter;
+  text-align: center;
+  .fa {
+    margin-top: 14px;
+  }
+  p {
+    margin-top: 4px;
+  }
+}
+
+.tag-list {
+  color: $white;
+}
+
+.tag {
+  height: 40px;
+  text-align: center;
+  padding-top: 9px;
+} 
+
+.tag-1 { background-color: #CC0000; }
+.tag-2 { background-color: #FF0000; }
+.tag-3 { background-color: #FF3300; }
+.tag-4 { background-color: #FF6600; }
+.tag-5 { background-color: #FF9900; }
