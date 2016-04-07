@@ -12,9 +12,9 @@ Rails.application.routes.draw do
   get 'discover' => 'static_pages#discover'
   get 'top' => 'static_pages#top'
 
-  get 'profiles/edit'
+  get 'profile' => 'profiles#edit'  #error
 
-  get 'notifications/all'
+  get 'notification' => 'notifications#all'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

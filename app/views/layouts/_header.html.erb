@@ -4,11 +4,11 @@
     <h5 class="ftglogo">Shin Zhang</h5>
   <hr>
   <ul class="nav navmenu-nav">
-    <li><a href="./"><i class="fa fa-youtube-play"></i>推荐</a></li>
-    <li><a href="../navmenu-push/"><i class="fa fa-search"></i>发现</a></li>
+    <li><%= link_to (fa_icon "youtube-play", text: "推荐"), root_path %></li>
+    <li><%= link_to (fa_icon "search", text: "发现"), discover_path %></li>
     <li><a href="../navmenu-reveal/"><i class="fa fa-star"></i>发布</a></li>
-    <li><a href="../navbar-offcanvas/"><i class="fa fa-envelope"></i>消息</a></li>
-    <li><a href="../navbar-offcanvas/"><i class="fa fa-user"></i>个人信息</a></li>
+    <li><%= link_to (fa_icon "envelope", text: "消息"), notification_path %></li>
+    <li><%= link_to (fa_icon "user", text: "个人信息"), user_path(1) %></li>
   </ul>
   <hr>
   <%= image_tag("ftglogo", width: '98', class: "ftglogo" ) %>
