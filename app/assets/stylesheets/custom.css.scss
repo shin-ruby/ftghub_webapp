@@ -67,6 +67,17 @@ body {
   z-index: 9999;
 }
 
+.navmenu-default, .navbar-default .navbar-offcanvas {
+  background-color: #FFFFFF;
+  border-color: #EEEEEE;
+}
+
+.navmenu-nav {
+  i {
+    margin-right: 10px;
+  }
+}
+
 @media (min-width: 100px) {
   .navbar-toggle {
     display: block !important;
@@ -90,7 +101,7 @@ body {
 }
 
 .common-header {
-  height: 40px;
+  height: 42px;
   background-color: $ftg-red;
   width: 100%;
   .col-md-12 {
@@ -122,6 +133,21 @@ a {
 /* Home Page */
 .home {
 	margin-top: 15px;
+}
+
+.home-content {
+  border-bottom:1px solid #EEEEEE;
+  margin-bottom: 15px;
+}
+
+.home-avatar {
+  img {
+    margin-left: -12px;
+  }
+}
+
+.home-social {
+  margin-top: -10px;
 }
 
 /* User Show */
@@ -294,6 +320,7 @@ a {
 
 .sort-box {
   background-color: $white;
+  border:1px solid #CC0033;
   width: 100px;
   height: 26px;
   margin-left: 30px;
