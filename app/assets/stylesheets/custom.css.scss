@@ -99,9 +99,22 @@ body {
       color: $white;
     }
     p {
-      margin-top: -24px;
+      margin-top: -29px;
       color: $white;
     }
+  }
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  &:active { 
+    color: #000000;
+    text-decoration: none;
+  }
+  &:hover {
+    color: $ftg-red;
+    text-decoration: none;
   }
 }
 
@@ -287,4 +300,25 @@ body {
   margin-top: 8px;
   padding-top: 2px;
   color: #CC6666;
+}
+
+/* top */
+
+.top-number {
+  margin-top: 10px;
+  margin-left: 8px;
+  display: block;
+  .top-first {
+    color: #FF9900;
+  }
+  .top-second {
+    color: #FFCC00;
+  }
+  .top-third {
+    color: #FFFF00;
+  }
+}
+
+.top-color {
+  color: $ftg-red;
 }

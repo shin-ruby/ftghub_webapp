@@ -9,7 +9,8 @@ Rails.application.routes.draw do
     end
   end
 
-  get 'static_pages/discover'
+  get 'discover' => 'static_pages#discover'
+  get 'top' => 'static_pages#top'
 
   get 'profiles/edit'
 

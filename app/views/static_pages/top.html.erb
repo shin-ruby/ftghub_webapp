@@ -1,0 +1,52 @@
+<% provide(:title, 'top') %>
+<div class="row common-header">
+  <div class="col-md-12">
+  	<a href="#">
+      <%= link_to (fa_icon "angle-left"), discover_path, class: "fa-2x" %>
+  	</a>
+  	<p class="text-center">高手榜</p>
+  </div>
+</div>
+
+<table class="table common-list">
+  <tr>
+  	<td><strong class="top-number">1<sup><i class="fa fa-star top-first"></i></sup></strong></td>
+  	<td><%= image_tag("shin-avatar", size: "40", class: "img-circle avatar") %></td>
+  	<td>
+  		<p class="username">Kristen Hancher</p>
+  		<small><span class="top-color">2000</span> 收到的赞</small>
+  	</td>
+  </tr>
+  <tr>
+  	<td><strong class="top-number">2<sup><i class="fa fa-star top-second"></i></sup></strong></td>
+  	<td><%= image_tag("avatar", size: "40", class: "img-circle avatar") %></td>
+  	<td>
+  		<p class="username">Kristen Hancher</p>
+  		<small><span class="top-color">1900</span> 收到的赞</small>
+  	</td>
+  </tr>
+  <tr>
+  	<td><strong class="top-number">3<sup><i class="fa fa-star top-third"></i></sup></strong></td>
+  	<td><%= image_tag("avatar", size: "40", class: "img-circle avatar") %></td>
+  	<td>
+  		<p class="username">Kristen Hancher</p>
+  		<small><span class="top-color">1800</span> 收到的赞</small>
+  	</td>
+  </tr>
+  <tr>
+  	<td><strong class="top-number">4</strong></td>
+  	<td><%= image_tag("avatar", size: "40", class: "img-circle avatar") %></td>
+  	<td>
+  		<p class="username">Kristen Hancher</p>
+  		<small><span class="top-color">1700</span> 收到的赞</small>
+  	</td>
+  </tr>
+  <tr>
+  	<td><strong class="top-number">5</strong></td>
+  	<td><%= image_tag("avatar", size: "40", class: "img-circle avatar") %></td>
+  	<td>
+  		<p class="username">Kristen Hancher</p>
+  		<small><span class="top-color">1600</span> 收到的赞</small>
+  	</td>
+  </tr>
+</table>

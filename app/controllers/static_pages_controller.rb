@@ -5,4 +5,8 @@ class StaticPagesController < ApplicationController
   def discover
   	
   end
+
+  def top
+  	
+  end
 end
