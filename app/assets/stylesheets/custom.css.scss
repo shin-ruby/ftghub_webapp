@@ -105,15 +105,31 @@ body {
   background-color: $ftg-red;
   width: 100%;
   .col-md-12 {
+    text-align: center;
     i {
       margin-top: 6px;
+      margin-left: -330px;
       color: $white;
     }
     p {
       margin-top: -29px;
       color: $white;
     }
+    .active {
+      background-color: #FF6666;
+      color: $white;
+    }
   }
+}
+
+.sort-box {
+  background-color: $white;
+  border:1px solid #CC0033;
+  width: 100px;
+  height: 26px;
+  margin-top: 8px;
+  padding-top: 2px;
+  color: #CC6666;
 }
 
 a {
@@ -310,24 +326,6 @@ a {
   }
 }
 
-.sort {
-  text-align: center;
-  .active {
-    background-color: #FF6666;
-    color: $white;
-  }
-}
-
-.sort-box {
-  background-color: $white;
-  border:1px solid #CC0033;
-  width: 100px;
-  height: 26px;
-  margin-left: 30px;
-  margin-top: 8px;
-  padding-top: 2px;
-  color: #CC6666;
-}
 
 /* top */
 
