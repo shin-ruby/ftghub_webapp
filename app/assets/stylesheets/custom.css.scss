@@ -351,3 +351,26 @@ a {
 .top-color {
   color: $ftg-red;
 }
+
+/* invite */
+
+.invite-header {
+  background-color: #CCCCCC;
+}
+
+.invite-weixin {
+  .left {
+    padding-top: 10px;
+    .weixin-icon {
+      color: #5CB85C;
+    }
+  }
+  .center {
+    padding-top: 10px;
+    color: $glay;
+  }
+  .angle-right {
+    margin-left: 40px;
+    color: #CCCCCC;
+  }
+}

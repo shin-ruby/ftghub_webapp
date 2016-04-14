@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'discover' => 'static_pages#discover'
   get 'top' => 'static_pages#top'
   get 'tag' => 'static_pages#tag'
+  get 'invite' => 'static_pages#invite'
 
   get 'profile' => 'profiles#edit'  #error
 

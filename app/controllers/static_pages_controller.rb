@@ -3,14 +3,14 @@ class StaticPagesController < ApplicationController
   end
 
   def discover
-  	
+  end
+
+  def invite
   end
 
   def top
-  	
   end
 
   def tag
-  	
   end
 end
