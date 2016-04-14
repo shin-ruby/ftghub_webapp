@@ -189,6 +189,9 @@ a {
     margin-right: 15px;
     margin-top: 15px;
   }
+  a {
+    color: $white;
+  }
 }
 
 .avatar {
@@ -372,5 +375,22 @@ a {
   .angle-right {
     margin-left: 40px;
     color: #CCCCCC;
+  }
+}
+
+/* setting */
+
+.setting-table {
+  p {
+    font-size: 10px;
+  }
+}
+
+.setting-other {
+  p {
+    margin-top: 2px;
+  }
+  .angle-right {
+    text-align: right;
   }
 }

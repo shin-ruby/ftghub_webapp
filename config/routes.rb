@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'top' => 'static_pages#top'
   get 'tag' => 'static_pages#tag'
   get 'invite' => 'static_pages#invite'
+  get 'setting' => 'static_pages#setting'
 
   get 'profile' => 'profiles#edit'  #error
 

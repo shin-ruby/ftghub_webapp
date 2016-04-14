@@ -8,6 +8,10 @@ class StaticPagesController < ApplicationController
   def invite
   end
 
+  def setting
+    
+  end
+
   def top
   end
 
